@@ -9,4 +9,4 @@ function ropasci(myChoice, yourChoice) { "use strict";
 
 const myChooser = () => Math.floor(Math.random() * 3); // Generates my choice
 
-console.log(ropasci(myChooser(),2));
+console.log(ropasci(myChooser(),2)); //For testing before real testing
