@@ -3,16 +3,12 @@
 */
 
 function ropasco(myChoice, yourChoice) {
-    let weapons = ["paper", "rock", "scissors"]
-    
-    if (yourChoice === myChoice){ // Draw condition 
-        return weapons[yourChoice] + " vs " + weapons[myChoice] + ", Draw";
-    } else {
-        if (myChoice == (yourChoice - 1)%3) { // I win, player loses
-            return weapons[yourChoice] + " vs " + weapons[myChoice] + ", I win"
-        } 
-    } // And if I don't win: 
-    return weapons[yourChoice] + " vs " + weapons[myChoice] + ", You win"; 
+    let weapons = ["paper", "rock", "scissors"]; // The options!
+    let choices = weapons[yourChoice] + " vs " + weapons[myChoice]; // So we don't have to repeat code. 
+
+    return (yourChoice == myChoice) ? choices + ", draw!" : // If same weapon > Draw! 
+        (myChoice == (yourChoice - 1)%3) ? choices + ", I win!" : // I beat you! 
+        choices + ", you win!"; // And if it isn't a draw and you haven't won...
 } 
 
 function myChooser() { // This has been placed outside for redundancy and symmetry.
