@@ -1,7 +1,3 @@
-/* 
-    A rock, paper, scissors game by Bamdad Fard and Andrei Robu.
-*/
-
 function ropasco(myChoice, yourChoice) {
     let weapons = ["paper", "rock", "scissors"]; // The options!
     let choices = weapons[yourChoice] + " vs " + weapons[myChoice]; // So we don't have to repeat code. 
