@@ -1,4 +1,4 @@
-function ropasci(myChoice, yourChoice) {
+function ropasci(myChoice, yourChoice) { "use strict";
     const WEAPONS = ["paper", "rock", "scissors"]; // The options!
     let choices = WEAPONS[yourChoice] + " vs " + WEAPONS[myChoice]; // So we don't have to repeat code. 
 
@@ -7,7 +7,6 @@ function ropasci(myChoice, yourChoice) {
         choices + ", you win!"; // And if it isn't a draw and you haven't won...
 } 
 
-function myChooser() { // This has been placed outside for redundancy and symmetry.
-    return Math.floor(Math.random() * 3);
-}
+const myChooser = () => Math.floor(Math.random() * 3); // Generates my choice
+
 console.log(ropasci(myChooser(),2));
