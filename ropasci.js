@@ -7,6 +7,6 @@ function ropasci(myChoice, yourChoice) { "use strict";
         choices + ", you win!"; // And if it isn't a draw and you haven't won...
 } 
 
-const myChooser = () => Math.floor(Math.random() * 3); // Generates my choice
+const myChooser = () => Math.floor(Math.random() * 3); // Generates my choice.
 
 console.log(ropasci(myChooser(),2));
