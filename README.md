@@ -1,4 +1,4 @@
-# RoPaSco
-A Paper, Rock, Scissors game in JavaScript.
+# RoPaSci
+An earnest attempt to over-engineer Paper, Rock, Scissors.
 
-By Bamdad Fard & Andrei Robu
+By Bamdad Fard
