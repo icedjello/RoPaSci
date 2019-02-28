@@ -1,0 +1,19 @@
+{
+  "name": "ropasci",
+  "version": "1.0.0",
+  "description": "A Rock, Paper, Scissors machine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icedjello/RoPaSci.git"
+  },
+  "author": "Bamdad Fard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icedjello/RoPaSci/issues"
+  },
+  "homepage": "https://github.com/icedjello/RoPaSci#readme"
+}
